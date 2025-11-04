@@ -1,0 +1,15 @@
+.Cabeçalho{
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
