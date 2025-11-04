@@ -1,12 +1,32 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
 /* Index.html */
 .Cabeçalho{
+    display: flex;
+    flex-direction: column;
     text-align: center;
     background-color: antiquewhite;
 }
 
+h1{
+    background-color: greenyellow;
+    width: 1000px;
+    text-align: center;
+}
+
 .menu{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 10px;
+    text-align: center;
+    margin-left: 180px;
 }
 
 .banner{
@@ -84,4 +104,75 @@ li{
 
 /* Contato.html */
 
+.Cabeçalho3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    text-align: center;
+}
 
+.lista{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: bisque;
+    width: 300px;
+    margin-left: 320px;
+}
+
+
+form {
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: red;
+    color: white;
+}
+
+button:hover{
+    background-color: red;
+    color: white;
+}
+
+button{
+    width: 200px;
+    margin-left: 400px;
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    width: 1000px;
+    text-align: center;
+}
